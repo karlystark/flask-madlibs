@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %} Choose a Story {% endblock %}
+
+{% block content %}
+<h1 class="pt-4 mb-3 text-center"> MadLibs </h1>
+<h2 class="pt-1 ps-3 pe-3 pb-4">Choose a Story:</h2>
+
+<select name="story_dropdown"
+required aria-label="story_dropdown"
+class="story_dropdown">
+
+  <option value="silly_story.prompts">Silly Story</option>
+  <option value="excited_story.prompts">Excited Story</option>
+
+
+  {% endblock %}
