@@ -23,6 +23,7 @@ class Story:
 
         self.prompts = words
         self.template = text
+        # add here
 
     def get_result_text(self, answers):
         """Return result text from dictionary of {prompt: answer, ...}."""
